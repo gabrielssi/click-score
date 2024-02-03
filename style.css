@@ -1,0 +1,25 @@
+html,
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(231, 231, 231);
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 20vh;
+  margin: 3vh;
+}
+
+.circulo {
+  font-size: 40px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: red;
+  color: rgb(231, 231, 231);
+  border: none;
+}
