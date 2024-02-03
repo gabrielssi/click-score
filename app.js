@@ -5,6 +5,7 @@ function ExibaScore() {
   let escreva = document.querySelector('h1');
   if (score == scoreWins) {
     escreva.innerHTML = `Você ganhou!`;
+    score = 0;
   } else { escreva.innerHTML = `${score}` };
 }
 ExibaScore();
