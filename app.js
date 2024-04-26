@@ -1,5 +1,5 @@
 let score = 0;
-let scoreWins = 1000;
+let scoreWins = 50;
 
 function ExibaScore() {
   let escreva = document.querySelector('h1');
